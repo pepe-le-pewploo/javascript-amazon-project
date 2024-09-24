@@ -68,6 +68,32 @@ const product1 = new Product({
   priceCents: 1090
 });
 
+// const date = new Date();
+// console.log(date);
+// console.log(date.toLocaleTimeString());
+
+/*
+console.log(this);
+
+const object2 = {
+  a: 2,
+  b: this.a //undefined
+}*/
+
+/*
+function logThis() {
+  console.log(this);
+}
+logThis();
+logThis.call('hello'); //arrow function this er value change hoy nah
+
+const object3 = {
+  method: () => {
+    console.log(this) //undefined print
+  }
+}
+
+object3.method();*/
 
 export const products = [
   {
